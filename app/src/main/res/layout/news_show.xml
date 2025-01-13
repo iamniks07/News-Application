@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        android:layout_below="@+id/title"/>
+
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Source and DateTime"
+        android:layout_below="@+id/imageView"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/source"
+        android:paddingStart="30dp"
+        android:text="Content hshff fshfhghgsjg sjggjg sjgfgjsggjf hgsgjhghjsfg sgjfggjhgfjhg jhjhhdgfjhgg hfddfjdhh sfhjhgfshghg     sjhjhfggfshjghjgshfghj hhhgsdh"/>
+
+    <TextView
+        android:id="@+id/Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:text="Description"
+        android:paddingStart="30dp"/>
+
+</RelativeLayout>
